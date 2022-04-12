@@ -6,6 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="$(CompatibilityPackageVersion)" />
-    <PackageReference Condition="'$(TargetFramework)' == 'netcoreapp2.0'" Include="Microsoft.NETCore.App" Version="2.0.0" />
+    <PackageReference Condition="'$(TargetFramework)' == 'netcoreapp2.0'" Include="Microsoft.NETCore.App" Version="2.0.3" />
   </ItemGroup>
 </Project>
